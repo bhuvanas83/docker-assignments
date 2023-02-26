@@ -1,0 +1,5 @@
+sudo docker images
+sudo docker tag 1326382836dd bhuvanas83/test01
+sudo docker images
+sudo docker login
+sudo docker push bhuvanas83/test01

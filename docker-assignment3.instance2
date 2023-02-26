@@ -1,0 +1,10 @@
+sudo apt update
+sudo apt install docker.io -y
+sudo docker pull bhuvanas83/test01
+sudo docker images
+sudo docker run -itd -p 80:80 bhuvanas83/test01 
+sudo docker ps
+sudo docker exec -it c61532c072b5 bash
+service apache2 status
+service apache2 start
+service apache2 status
