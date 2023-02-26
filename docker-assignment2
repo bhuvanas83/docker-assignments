@@ -1,0 +1,9 @@
+sudo docker ps
+sudo docker commit 407a71293a7f assignment2
+sudo docker images
+sudo docker run -itd -p 81:80 assignment2
+sudo docker ps
+sudo docker exec -it ed4dbb598f6d bash
+service apache2 status
+service apache2 start
+service apache2 status
