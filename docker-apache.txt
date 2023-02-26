@@ -1,0 +1,10 @@
+sudo apt update
+sudo apt install docker.io -y
+sudo docker pull ubuntu
+sudo docker run -itd -p 80:80 ubuntu
+sudo docker exec -it 407a71293a7f  bash
+apt update
+apt install apache2
+service apache2 status
+service apache2 start
+service apache2 status
