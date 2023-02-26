@@ -1,0 +1,2 @@
+sudo docker build . -t server2
+sudo docker run -itd -p 8082:80 server2
